@@ -1,3 +1,13 @@
+/* Settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Mise en page générale  */
 body{
     background-image: url(Fond.webp);
     background-repeat: no-repeat;
@@ -7,17 +17,34 @@ nav{
     margin: 60px;
     padding: 40px;
 }
+h1{
+    font-size: 120px;
+}
+h2{
+    font-size: 70px ;
+}
+p{
+    font-size: 30px;
+}
+
+
 .container{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    gap:50px;
+    border: solid 4px green;
+}
+.about{
+    border: solid 4px violet;
+    align-self: center;
+margin: 30px;
 }
 .container2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
     margin-top: 110px;
+    border: solid 4px violet;
+    margin-left: 300px;
 }
 .child1{
     height: 100px;
@@ -32,11 +59,13 @@ nav{
     width: 100px;
 }
 
+
 /* Section de présentation */
 .cadre{ 
     background-color: white;
+    border: solid 4px red;
     opacity: 70%;
     padding: 40px;
-    margin: 60px;
+    margin-left: 300px;
     width: fit-content;
 }
