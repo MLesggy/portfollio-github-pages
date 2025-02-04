@@ -3,23 +3,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-header{
+nav{
     margin: 60px;
     padding: 40px;
-    border: solid 4px red;
 }
-
-.logo{
-    height: 80px;
-    width: 80px;
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap:50px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 110px;
+}
+.child1{
+    height: 100px;
+    width: 100px;
+}
+.child2{
+    height: 100px;
+    width: 100px;
+}
+.child3{
+    height: 100px;
+    width: 100px;
 }
 
 /* Section de présentation */
-.cadre{
-    border: solid 4 px red;
+.cadre{ 
     background-color: white;
     opacity: 70%;
     padding: 40px;
-    margin: 50px;
+    margin: 60px;
     width: fit-content;
 }
