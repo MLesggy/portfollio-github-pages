@@ -3,3 +3,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+header{
+    margin: 60px;
+    padding: 40px;
+    border: solid 4px red;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+/* Section de présentation */
+.cadre{
+    border: solid 4 px red;
+    background-color: white;
+    opacity: 70%;
+    padding: 40px;
+    margin: 50px;
+    width: fit-content;
+}
